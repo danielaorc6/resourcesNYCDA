@@ -17,62 +17,6 @@ a:hover, a:focus {
 }
 
 
-/*Header*/
-
-.header {
-    padding: 35px 0;
-}
-
-.header-border {
-    border-top: 2px solid #337AB7;
-}
-
-.header-left {
-    float: left;
-}
-
-.header-title {
-    font-size: 22px;
-    font-variant: small-caps;
-    font-weight: 500;
-}
-
-.header-right {
-    float: right;
-    text-align: right;
-}
-
-.header-right .header-ul {
-    list-style: none;
-    padding: 0;
-}
-
-.header-right .header-ul li {
-    margin-left: 10px;
-    display: inline-block;
-    list-style: none;
-}
-
-.header-right .header-ul li i {
-    margin-right: 5px;
-}
-
-.header-right nav li {
-    margin-right: 5px;
-    padding-right: 10px;
-    border-right: 1px solid #DDD;
-}
-
-.header-right nav li:last-child {
-    margin-right: 0;
-    padding-right: 0;
-    border: none;
-}
-
-
-/*Header*/
-
-
 /* Nav */
 
 .navbar {
