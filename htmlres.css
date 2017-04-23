@@ -1,5 +1,5 @@
 body{
-  background-color: #021c1e;
+  background-color: #44343C;
   margin: 0;
 }
 
@@ -10,7 +10,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2988bc;
+    background-color: #807D84;
     position: fixed;
     top: 0;
     z-index: 20;
@@ -24,7 +24,7 @@ nav li {
 
 nav li a {
     display: block;
-    color: #f4ebdb;
+    color: #ED7953;
     font: 18px Georgia, serif;
     text-align: center;
     padding: 13px 16px;
@@ -33,7 +33,19 @@ nav li a {
 
 nav li a:hover:not(.active) {
     font: 18px Georgia, serif;
-    background-color: #111;
+    background-color: #B7BABC;
+}
+
+/*h1*/
+h1 {
+  position: relative;
+  color: #80524A;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  background-color: #44343C;
+
 }
 
 
@@ -46,7 +58,7 @@ nav li a:hover:not(.active) {
   position: static;
   background-repeat: no-repeat;
   height: 81vh;
-  background-size: 100% 100%;
+  background-size: 100% 76%;
   background-image: url(htmlbanner.png);
   text-align: center;
   font: bold 40px Georgia, serif;
@@ -69,7 +81,7 @@ nav li a:hover:not(.active) {
   height: 20vh;
   background-size: 100% 100%;
   text-align: center;
-  background-color: #063852;
+  background-color: #807D84;
   border: 1px solid #d0e1f9;
 }
 
