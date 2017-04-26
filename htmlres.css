@@ -102,15 +102,28 @@ h1 {
 }
 
 /*description*/
+#htmllogo {
+  text-align: center;
+  position: static;
+  background-repeat: repeat-x;
+}
+
+img {
+  height: 80px;
+  opacity: 0.7;
+}
+
 .description p {
+  float: left;
   color: white;
   text-align: center;
   padding: 1% 32%;
 }
 
+
 /*video*/
 
-/*.video {
+.video {
   text-align: center;
   border: 1px solid #d0e1f9;
   height: 240px;
@@ -118,7 +131,7 @@ h1 {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 25px 0px;
-}*/
+}
 
 .container
 {
@@ -132,6 +145,7 @@ h1 {
 
 .extras  {
   text-align: center;
+  color: white;
 }
 
 .extras ul li {
